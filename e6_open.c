@@ -148,23 +148,23 @@ int main(int argc,char *argv[])
     {
         printf("「神」\nもしかしてプログラム弄ったんじゃないの？\n");
     }
-    else if(count < 5)
+    else if(count < 4)
     {
         printf("「天才」\n賢くない？\n");
     }
-    else if (count < 7)
+    else if (count < 5)
     {
-        printf("「賢い」\nまあ、なかなかやるじゃん\n");
+        printf("「賢い」\nふーん、やるやん\n");
     }
-    else if (count < 9)
+    else if (count < 7)
     {
         printf("「凡人」\nま、お前ならこんなもんか\n");
     }
-    else if (count < 15)
+    else if (count < 9)
     {
         printf("「バカ」\nバカと天才は紙一重ってね\n");
     }
-    else if (count < 20)
+    else if (count < 12)
     {
         printf("「正気を疑う」\n時間かかりすぎじゃない？？？\n");
     }
