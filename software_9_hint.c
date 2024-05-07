@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdbool.h>
+#include <stdbool.h> //bool用
 int main(void)
  
 {
     int max = 20;
-    printf("まず、すべて素数と考える\n");
+    printf("高速化のススメ\nまず、すべて素数と考える\n");
     bool a[max+1]; //trueかfalseか
     for(int i = 1;i <= max;i++)
     {
@@ -28,7 +28,7 @@ int main(void)
         if(a[i] == true)
         {
             count++;
-            printf("\n%d回目\n",count);
+            printf("\n%d回目 (i = %d、j = %d)\n",count,i,i*i);
             for(int j = i*i;j <= max;j += i)
             {
                 a[j] = false;
@@ -36,7 +36,7 @@ int main(void)
         }
         else if(a[i] == false)
         {
-            printf("\n%dは素数じゃないので、スキップ\n",i);
+            printf("\n%dは素数じゃないので、スキップ (i = %d)\n",i,i);
         }
 
         for(int i = 1;i <= max;i++)
