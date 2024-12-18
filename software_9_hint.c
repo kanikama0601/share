@@ -50,7 +50,7 @@ int main(void)
     printf("\n\nこれで素数の表が完成する\n後はn～2nの間にtrueが無いならreturn 1でエラー表示にするだけ\n");
     printf("なんでそんなこと知ってるの\n");
     printf("＿人人人人人人人人人人人人人人人人＿\n");
-    printf("＞　カイトをフォローしているから　＜\n");
+    printf(">　カイトをフォローしているから　  <\n");
     printf("￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y￣\n");
     return 0;
 }
