@@ -8,7 +8,7 @@ def image_gen(num,img_path):
   elif num == 2:
     image = image.resize((image.width*2,image.height*3))
   elif num == 3:
-    image = image.resize((image.width / 2, image.height / 2))
+    image = image.resize((int(image.width // 2), int(image.height // 2)))
   elif num == 4:
     image = image.rotate(30,expand=True)
   return image
